@@ -6,9 +6,105 @@
     display: none;
 }
 
+.boxhelper {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+
 @font-face {
     font-family: HammersmithOne;
     src: url('fonts/Hammersmithone.ttf');
     font-family: Montserrat-Light;
     src: url('fonts/Monstserrat-Light.ttf')
+}
+
+body {
+    color: $white;
+}
+
+#main-header {
+    background-color: $lgreen;
+    text-align: center;
+    height: 600px;
+}
+
+#header-title {
+    h1{ // default font size 40px
+    margin-top: 250px;
+    font-family: $title;
+    text-transform: uppercase;
+    }
+}
+
+#morning-section {
+    background-color: $dgreen;
+}
+
+.icons {
+    margin-top: 50px;
+    p {
+        margin: 0 auto;
+    }
+}
+
+.right-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    h2 {
+        text-align: center;
+        font-family: $title;
+        text-transform: uppercase;
+    }
+    p {
+        margin-top: 20px;
+        font-family: $body;
+        font-weight: bold;
+    }
+}
+
+.left-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    h2 {
+        text-align: center;
+        font-family: $title;
+        text-transform: uppercase;
+    }
+    p {
+        margin-top: 20px;
+        font-family: $body;
+        font-weight: bold;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#afternoon-section {
+    background-color: $lgreen;
+}
+
+#night-section {
+    background-color: $dgreen;
+}
+
+#moreinfo-section {
+    background-color: $lgreen;
 }
