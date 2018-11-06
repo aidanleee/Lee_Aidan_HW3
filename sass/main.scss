@@ -44,6 +44,18 @@ body {
     background-color: $dgreen;
 }
 
+#afternoon-section {
+    background-color: $lgreen;
+}
+
+#night-section {
+    background-color: $dgreen;
+}
+
+#moreinfo-section {
+    background-color: $lgreen;
+}
+
 .icons {
     margin-top: 50px;
     p {
@@ -82,29 +94,46 @@ body {
     
 }
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #header-title {
+        h1{
+            font-size: 50px;
+        }
+    }
 
+    .icons {
+        margin-top: 35px;
+        p {
+            margin: 0px;
+            margin-left:20px;
+            margin-right: 20px;
+        }
+    }
 
+    .right-text {
+        text-align: right;
+        h2 {
+            text-align: right;
+            margin-right: 30px;
+        }
+        p {
+            margin-right: 30px;
+        }
+    }
 
+    .left-text {
+        h2 {
+            text-align: left;
+            margin-left: 30px;
+        }
+        p {
+            margin-left: 30px;
+        }
+    }
 
+    .fr {
+        float: right;
+    }
 
-
-
-
-
-
-
-
-
-
-
-#afternoon-section {
-    background-color: $lgreen;
-}
-
-#night-section {
-    background-color: $dgreen;
-}
-
-#moreinfo-section {
-    background-color: $lgreen;
 }
